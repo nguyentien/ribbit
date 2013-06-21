@@ -8,7 +8,10 @@ defined('BASE_URL')
 defined('APPLICATION_PATH')
 	|| define('APPLICATION_PATH', realpath(dirname(__FILE__)));
 
-require_once 'config/application.php';
+defined('DS')
+	|| define('DS', '/');
+	
+require_once 'config/setting.php';
 
 $application = new Application();
 $application->run();
