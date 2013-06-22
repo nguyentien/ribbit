@@ -1,6 +1,6 @@
 {include file="../../styles/$style/header.tpl"}
 
-<img src="styles/default/images/frog.jpg">
+<img src="/styles/default/images/frog.jpg">
 <div class="panel right">
 	<h1>New to Ribbit?</h1>
 	<form>
